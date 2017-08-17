@@ -57,11 +57,16 @@ input {
     color: white;
     font-family: 'Libre Baskerville';
     font-size: 20px;
-    cursor: pointer;
     opacity: 0.8;
+    
 }
 
-.btn:hover {
+.enter {
+    opacity:0.8;
+    cursor: pointer;
+}
+
+.enter:hover {
     opacity:0.6; 
 }
 
@@ -164,6 +169,18 @@ img:hover {
     margin-top:35%;
     margin-left: 30px;
     font-size: 25px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.navigation:hover {
+    opacity:0.6; 
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    font-weight: 200;  
 }
 
 .bottom_nav{
