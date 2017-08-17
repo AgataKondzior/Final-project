@@ -1,0 +1,226 @@
+body {    
+    background-image: url('../images/background_4.jpg');   
+}
+
+/* strona główna*/
+.box {
+    height: 450px;
+    width: 650px;
+    margin: auto;
+    top: 20%;
+    left:30%;
+    background-color: #ffffff;
+    opacity: 0.6;
+    border: 1px solid white;
+    color: black;
+    position: absolute;
+}
+
+ h1 {
+    font-family: 'Libre Baskerville', serif; 
+    color: black;
+    font-weight: bold;
+    text-align: center;    
+}
+
+p {
+    font-family: 'Libre Baskerville', serif; 
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: 30px 35px 20px 35px;
+}
+
+input {
+    height: 60px;
+    width: 300px;
+    margin-left: 160px;
+    border-radius: 5px;
+    border: 1px solid chocolate;
+    text-align:center;
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+   
+.btn {
+    height: 75px;
+    width: 300px;
+    background-color: chocolate;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 160px;
+    color: white;
+    font-family: 'Libre Baskerville';
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity:0.6; 
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    font-weight: 200;  
+}
+
+
+/*Plansza 1*/
+
+.greet{
+    margin-left: 36%; 
+    width: 480px;
+}
+
+
+.counter {   
+    margin-left: 10%; 
+    /*height: 70px;
+    width: 300px;
+    background-color: chocolate;
+    border-radius: 5px;
+    border: 1px solid black;*/
+    margin-top: 20px; 
+    /*color: white;
+    font-family: 'Libre Baskerville';
+    font-size: 20px;
+    opacity: 0.8;*/ 
+    
+}
+
+.box1 {
+    height: 450px;
+    width: 650px;
+    margin: auto;
+    top: 18%;
+    left:30%;
+    background-color: #ffffff;
+    opacity: 0.5;
+    border: 1px solid white;
+    color: black;
+    position: absolute;
+    z-index: -1;
+}
+
+.img1 {  
+    width: 412px;
+    height: 258px;
+    top: 30%;
+    left:38%;
+    background:black;
+    position: absolute;
+}
+
+.level {    
+    height:40px;
+    width: 132px;
+    background-color: chocolate;
+    border-radius: 5px;
+    border: 1px solid black;
+    color:white;
+    float:left; 
+    margin-top:4%;
+    margin-left:47%;
+    opacity: 0.6;
+    position: absolute;
+    font-family: 'Libre Baskerville';
+    font-size: 20px;
+}
+
+.level a:hover {
+    opacity:0.6;
+}
+
+.small {
+   height: 400px; 
+   width:600px;
+   left:32%;
+}
+
+.board_1  {
+    position:absolute;
+    top: 30%;
+    left: 38%;   
+}
+
+img {  
+    opacity: 0.9;
+    
+}
+
+img:hover {
+    cursor:pointer;
+    opacity: 0.95;
+}
+
+.navigation {  
+    margin-top:35%;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.bottom_nav{
+    margin-top: 5%;
+    margin-left: 17%;
+    margin-bottom: 20px;
+}
+
+/*Plansza 2*/
+
+.medium {
+    height: 465px;
+}
+
+.img2 {  
+    width: 515px;
+    height: 345px;
+    top: 30%;
+    left:34.5%;
+    background:black;
+    position: absolute;
+}
+
+.board_2  {
+    position:absolute;
+    top: 30%;
+    left:34.5%;
+    text-align: center;
+}
+
+/*Plansza 3*/
+
+.img3 {  
+    width: 620px;
+    height: 345px;
+    top: 30%;
+    left:30.5%;
+    background:black;
+    position: absolute;
+}
+
+.board_3  {
+    position:absolute;
+    top: 30%;
+    left:30.5%;
+    text-align: center;
+}
+
+.big {
+    height: 465px;
+    width: 760px;
+    left:26%;
+}
+
+.bottom_nav3 {
+    margin-top: 10%;
+    margin-left: 28%;
+    margin-bottom: 20px;  
+    
+}
